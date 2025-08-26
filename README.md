@@ -82,12 +82,14 @@ Advanced features implemented:
 3. 
    **Set Up The Database**
    **Open**: MySQL Workbench (or CLI)
-   **Run**: 
+   **Run**:
+
    ```bash
    SOURCE schema.sql;
    ```
    This will create all tables, views, triggers, and stored procedures
    **Run**:
+
    ```bash
    SOURCE sample_data.sql;
    ```
@@ -104,5 +106,7 @@ Advanced features implemented:
 5. 
    **Run The Application**
    ```bash
+  **Run:**
+
    python main.py
    ```
