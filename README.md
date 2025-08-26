@@ -105,8 +105,8 @@ Advanced features implemented:
    }
 5. 
    **Run The Application**
-   ```bash
   **Run:**
 
+   ```bash
    python main.py
    ```
