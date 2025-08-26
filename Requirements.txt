@@ -1,0 +1,14 @@
+# Nathan Auto Detail Management System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# MySQL connector to interact with the database
+mysql-connector-python>=8.0.0
+
+# Pillow (PIL fork) for image handling in Tkinter
+Pillow>=9.0.0
+
+# CustomTkinter for modern, themed Tkinter widgets
+customtkinter>=5.2.0
+
+# Matplotlib for charts/visualizations (dashboard reports)
+matplotlib>=3.7.0
