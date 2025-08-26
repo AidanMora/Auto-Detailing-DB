@@ -72,3 +72,31 @@ Advanced features implemented:
    ```bash
    git clone https://github.com/YOUR-USERNAME/Auto-Detailing-DB.git
    cd Auto-Detailing-DB
+
+2. ```bash
+   pip install -r requirements.txt
+
+3. **Set Up The Database**
+   **Open**: MySQL Workbench (or CLI)
+   **Run**: 
+   ```bash
+   SOURCE schema.sql;
+   ```
+   This will create all tables, views, triggers, and stored procedures
+   **Run**:
+   ```bash
+   SOURCE sample_data.sql;
+   ```
+4. **Update Database Credentials**
+   In *main.py*, update your MySQL login info:
+   ```bash
+   DB_CONFIG = {
+    'user': 'root',
+    'password': 'yourpassword',
+    'host': 'localhost',
+    'database': 'nathan_auto_detail'
+   }
+5. **Run The Application**
+   ```bash
+   python main.py
+   ```
