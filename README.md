@@ -36,7 +36,6 @@ This project was created as part of a **Database Systems Final Project**.
 - Quick overview of business trends  
 
 ### 🔹 Settings
-- **Dark Mode toggle** for UI  
 - **Wipe All Data** option to clear records (tables remain intact)  
 
 ---
